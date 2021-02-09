@@ -1,7 +1,7 @@
 #!/bin/bash
 
 out="host-info.txt"
-mac_cmds="cat /etc/hosts,ifconfig,netstat -nr,scutil --dns"
+mac_cmds="cat /etc/hosts,ifconfig -v,netstat -nr,scutil --dns,ps -A,ls /Library/LaunchDaemons,ls /System/Library/LaunchDaemons,ls /Library/LaunchAgents,ls /System/Library/LaunchAgents,ls ~/Library/LaunchAgents"
 linux_cmds="cat /etc/hosts,ip addr show,ip link show,resolvectl status --no-pager,cat /etc/resolv.conf,hostnamectl"
 IFS=,
 
