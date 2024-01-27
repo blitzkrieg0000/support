@@ -1,5 +1,6 @@
 version: 2.1
-
+on: 
+  workflow_dispatch:
 jobs:
   headless_client:
     machine:
