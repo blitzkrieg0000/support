@@ -1,5 +1,7 @@
 name: Twingate on GitHub Actions Demo
-on: [push]
+on: 
+  workflow_dispatch:
+    
 jobs:
   Twingate-GitHub-Actions:
     runs-on: ubuntu-latest
